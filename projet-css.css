@@ -1,0 +1,219 @@
+@font-face{
+	font-family: "Getsu_Magic";
+	src: url("getsu_magic/Getsu_Magic.otf") format("truetype");
+}
+
+h1, h2{
+	font-family: "Getsu_Magic", arial, sans-serif;
+	color:#1f9cd9;
+}
+
+h1{
+	font-size:600%;
+	text-align:center;
+}
+
+h2{
+	font-size:400%;
+	color:#d3cac0;
+}
+
+h3{
+	font-family: "Getsu_Magic", arial, sans-serif;
+	font-size:250%;
+	color:#d3cac0;
+	margin:0px;
+}
+
+h4{
+	color:#d3cac0;
+    font-family: "Getsu_Magic", arial, sans-serif;
+	font-size:160%;
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left:1%;
+}
+
+p{
+	font-family: "Calibri";
+	text-align:justify;
+	color:white;
+}
+
+header figure{
+	float:left;
+}
+
+figcaption{
+	text-align:center;
+	font-family: "Calibri";
+	color: #1f9cd9;
+}
+
+nav{
+	text-align:center;
+}
+
+nav a, button{
+	display:inline-block;
+}
+
+nav a{
+	padding:3%;
+	font-size:200%;
+	color:#1f9cd9;
+}
+
+a{
+	font-family: "Calibri";
+	color:#1f9cd9;
+}
+
+body{
+	background-color:#2f2f2f;
+}
+
+section{
+	background-color:rgba(31, 156, 217,0.5);
+	margin:2%;
+	padding:5px;
+}
+
+section p, ul{
+	margin:1%;
+	position:relative;
+	bottom:10%;
+	font-size:110%;
+	color:#d3cac0;
+	line-height:1.5;
+}
+
+ul{
+	font-family: "Calibri";
+}
+
+section form{
+	color:white;
+	font-family: "Calibri";
+	padding:1%;
+}
+
+input{
+	width:25%;
+}
+
+.question{
+	width:75%;
+}
+
+#formulaire{
+	font-family: "Calibri";
+	font-size:110%;
+	position:relative;
+	left:85%;
+	width:15%;
+	background-color:#2f2f2f;
+	color:white;
+	padding:0.5%;
+}
+
+textarea{
+	font-family: "Calibri";
+}
+
+section img{
+	float:right;
+	margin-left:15px;
+}
+
+video{
+	width:100%;
+	height:auto;
+}
+
+#chateau{
+	width:400px;
+	height:auto;
+}
+
+#fontaine{
+	width:200px;
+	height:auto;
+}
+
+#terrain{
+	width:300px;
+	height:auto;
+}
+
+#jeu{
+	width:390px;
+	height:auto;
+}
+
+#foret{
+	width:200px;
+	height:auto;
+}
+
+.eleve{
+	height:136px;
+	background-color:rgba(31, 156, 217,0.5);
+	margin:2%;
+	padding:5px;
+}
+
+.eleve img{
+	float:right;
+}
+
+.eleve p{
+	margin:1%;
+	position:relative;
+	bottom:10%;
+	font-size:110%;
+	color:#d3cac0;
+	line-height:1.5;
+}
+
+.souslien{
+	display:none;
+	font-size:200%;	
+}
+
+div:hover .souslien{
+	display:block;
+	float:right;
+	padding:1%;
+}
+
+.entreprise{
+	background-color:rgba(31, 156, 217,0);
+}
+
+.eleve_entreprise{
+	display:inline-block;
+	background-color:rgba(31, 156, 217,0.5);
+	width:250px;
+	text-align:center;
+	margin:7px;
+	padding:10px;
+	border-radius:30px;
+}
+
+.eleve_entreprise img{
+	float:none;
+	margin-left:0px;
+}
+
+.eleve_entreprise p{
+	text-align:center;
+}
+
+.photo_entreprise{
+	float:right;
+	width:150px;
+	height:auto;
+	position:relative;
+	top:30px;
+}
